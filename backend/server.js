@@ -1,6 +1,6 @@
 
 
-const mongoURI = 'mongodb+srv://Rahul:this_is_my_pass@cluster0.rsf8d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -14,7 +14,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB Connection
-//const mongoURI = 'mongodb+srv://<username>:<password>@cluster.mongodb.net/?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://<username>:<password>@cluster.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error('Could not connect to MongoDB:', err));
