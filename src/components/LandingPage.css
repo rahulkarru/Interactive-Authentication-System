@@ -1,0 +1,76 @@
+* {
+    color: #f0e8e8;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(172, 168, 168); 
+}
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+    height: 100vh;
+    padding-right: 40%; /* Add spacing for the overall container */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #43ccba;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-right: -70%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #f0f0f0;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 20px; /* Add spacing between buttons */
+    margin-top: 20px;
+  
+    margin-left: -20%; 
+}
+
+.landing-button {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    background-color: #43ccba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.landing-button:hover {
+    background-color: rgba(0, 86, 179, 0.8);
+}
+
+.landing-button:focus {
+    outline: none;
+}
+
+.landing-image {
+    max-width: 400px;
+    margin-bottom: 20px;
+    align-self: flex-end; 
+    margin-right: -10%; 
+}
