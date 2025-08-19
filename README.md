@@ -100,7 +100,7 @@ Here’s an overview of the file structure:
 ### 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/interactive-auth
+git clone https://github.com/rahulkarru/Interactive-Authentication-System
 cd interactive-auth
 ```
 
