@@ -100,10 +100,6 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // MongoDB Connection
-
-//const mongoURI = 'mongodb+srv://Rahul: Nothing@cluster0.rsf8d.mongodb.net/';
-
-//const mongoURI = 'mongodb+srv://rahulpatelkarru03:KccmKxWqkAaznkSG@cluster0.cld3vel.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const mongoURI = process.env.MONGO_URI;
 mongoose.connect(mongoURI, { 
     serverSelectionTimeoutMS: 5000 // Adjust the timeout as needed
