@@ -17,7 +17,7 @@ const Register = ({ shapeData }) => {
 
         try {
             // Send shapeData (the drawn shape) to the backend
-            const response = await axios.post('https://auth-sys-ku5r.onrender.com/', {
+            const response = await axios.post('https://auth-sys-ku5r.onrender.com/api/register', {
                 username,
                 email,
                 shapeData
