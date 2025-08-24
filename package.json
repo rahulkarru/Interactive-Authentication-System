@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rahulkarru.github.io/interactive-auth/",
+  "homepage": "https://rahulkarru.github.io/Interactive-Authentication-System/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
